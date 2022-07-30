@@ -9,7 +9,6 @@ function Step1() {
             <div className='lines lineo'></div>
             <div className='lines lineo'></div>
             <div className='lines lineo'></div>
-            <div className='lines lineo'></div>
         </div>
         <div className="login">
             <div className='login-text'>

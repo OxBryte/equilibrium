@@ -1,4 +1,4 @@
-import '../styles/step1.css';
+import '../styles/step2.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Step2() {
@@ -7,7 +7,6 @@ function Step2() {
         <div className='col-12 line'>
             <div className='lines '></div>
             <div className='lines'></div>
-            <div className='lines lineo'></div>
             <div className='lines lineo'></div>
             <div className='lines lineo'></div>
         </div>
