@@ -23,6 +23,7 @@ function Step3() {
                         <textarea type='text' placeholder='Write a short description of your fundraiser (0-300 words)'></textarea>
                         <input className='col-12' type='text' placeholder='Portfolio Link (optional)'></input>
                         <input className='col-12' type='text' placeholder='Social Media (optional)'></input>
+                        <input type="file" accept="image/png, image/jpg"></input>
                     </div>
                     <div className='checkbox'>
                         <Form.Check label="Accept terms and condition" name="group1" type='checkbox' />
