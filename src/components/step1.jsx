@@ -4,12 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Step1() {
   return (
     <div className=''>
-        <div className='col-12 line'>
-            <div className='lines'></div>
-            <div className='lines lineo'></div>
-            <div className='lines lineo'></div>
-            <div className='lines lineo'></div>
-        </div>
         <div className="login">
             <div className='login-text'>
                 <h1>Step 1</h1>

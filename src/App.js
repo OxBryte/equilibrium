@@ -8,10 +8,10 @@ import Step4 from './components/step4';
 function App() {
   return (
     <div className="App">
-      {/* <Step1 /> */}
+      <Step1 />
       {/* <Step2 /> */}
       {/* <Step3 /> */}
-      <Step4 />
+      {/* <Step4 /> */}
     </div>
   );
 }

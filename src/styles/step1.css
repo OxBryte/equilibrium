@@ -69,23 +69,6 @@
     background-color: #177783;
 }
 
-.line {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
-}
-
-.lines {
-    background-color: #104147;
-    border-radius: 40px;
-    padding: 4px;
-    width: 120px;
-}
-
-.lineo{
-    background-color: #9AD3DA;
-}
-
 
 @media screen {
     

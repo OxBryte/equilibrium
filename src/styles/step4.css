@@ -31,6 +31,21 @@
     width: 250px;
 }
 
+
+.form-input h5 {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.form-input h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+    font-style: italic;
+    margin-top: 20px;
+}
+
 .form-button {
     width: 600px;
     color: #fff;
@@ -46,18 +61,6 @@
     background-color: #177783;
 }
 
-.line {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
-}
-
-.lines {
-    background-color: #104147;
-    border-radius: 40px;
-    padding: 4px;
-    width: 120px;
-}
 
 @media screen {
     

@@ -6,12 +6,6 @@ import Profile from '../images/profile.svg'
 function Step4() {
   return (
     <div className=''>
-        <div className='col-12 line'>
-            <div className='lines '></div>
-            <div className='lines'></div>
-            <div className='lines'></div>
-            <div className='lines'></div>
-        </div>
         <div className="login">
             <div className='login-text'>
                 <h1>Step 4</h1>
@@ -21,7 +15,8 @@ function Step4() {
             <form className='form'>
                 <div className='row col-12 form-input'>
                     <img src={Profile} alt=''></img>
-                    <h3>@OlumideSilas</h3>
+                    <h5>@OlumideSilas</h5>
+                    <h3>Account created succcessfully</h3>
                 </div>
             </form>
         </div>

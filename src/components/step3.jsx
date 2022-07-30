@@ -5,12 +5,6 @@ import Form from 'react-bootstrap/Form';
 function Step3() {
   return (
     <div className=''>
-        <div className='col-12 line'>
-            <div className='lines '></div>
-            <div className='lines'></div>
-            <div className='lines'></div>
-            <div className='lines lineo'></div>
-        </div>
         <div className="login">
             <div className='login-text'>
                 <h1>Step 3</h1>
