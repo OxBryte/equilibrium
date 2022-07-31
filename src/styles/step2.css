@@ -1,5 +1,6 @@
 .login {
     width: 600px;
+    min-height: 680px;
     background-color: #fff;
     padding: 15px;
     border-radius: 20px;

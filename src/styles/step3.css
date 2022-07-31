@@ -1,5 +1,6 @@
 .login {
     width: 600px;
+    min-height: 680px;
     background-color: #fff;
     padding: 15px;
     border-radius: 20px;
@@ -27,7 +28,7 @@
 }
 
 .details textarea {
-    min-height: 200px;
+    min-height: 150px;
     width: 410px;
     padding: 20px;
     font-size: 13px;
