@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.css';
-import SignUp from './components/signup';
-import Login from './components/login';
+import Navbar from './components/navbar';
 
 function App() {
   return (
-    <div className="App">
-      {/* <SignUp /> */}
-      <Login />
+    <div className="">
+      <Navbar />
     </div>
   );
 }
