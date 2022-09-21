@@ -5,4 +5,26 @@
     background-color: #ffeef6;
     height: 60vh;
     width: 100%;
+    padding: 2rem calc((100vw - 1400px) / 2);
+    display: flex;
+    align-items: center;
+}
+
+.hero .hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1{
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.hero-text {
+    padding: 2rem 6rem;
+    flex-direction: column;
+    display: flex;
+    align-items: left;
+    justify-content: center;
 }
