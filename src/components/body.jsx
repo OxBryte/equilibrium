@@ -1,10 +1,10 @@
 import React from 'react';
-import '../styles/hero.css';
+import '../styles/body.css';
 import asset1 from '../images/asset1.gif'
 
-function Hero() {
+function Body() {
   return (
-    <div className="hero">
+    <div className="body">
         <div className='row col-12 hero-content'>
             <div className='hero-img col-6'>
                 <img src={asset1} alt="" srcset="" />
@@ -18,4 +18,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default body;
