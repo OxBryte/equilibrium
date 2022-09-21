@@ -1,4 +1,8 @@
 .hero {
-    background: url(../images/asset1.gif);
-    height: 800vh;
+    /* background: url(../images/asset1.gif); */
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+    background-color: #ffeef6;
+    height: 60vh;
+    width: 100%;
 }

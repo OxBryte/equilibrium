@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/navbar.css';
-// import { FaBars } from 'react-icons/fa';
+// import { BsBars } from 'react-icons/bs';
 import logo from '../images/lojj.svg'
 
 function Navbar() {
@@ -11,7 +11,7 @@ function Navbar() {
                 <img src={logo} alt='logo' />
             </div>
             <div className='bars'>
-                {/* <FaBars /> */}
+                {/* <BsBars /> */}
             </div>
             <div className='navmenu'>
                 <div className='navlink' to='/' active>
