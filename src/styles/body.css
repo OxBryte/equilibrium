@@ -1,0 +1,19 @@
+.body .body-content {
+    display: flex;
+    justify-content: center;
+    padding: 2rem calc((100vw - 1300px) / 2);
+    align-items: center;
+}
+
+.body h1{
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.body-text {
+    padding: 2rem 6rem;
+    flex-direction: column;
+    display: flex;
+    /* align-items: left; */
+    /* justify-content: left; */
+}

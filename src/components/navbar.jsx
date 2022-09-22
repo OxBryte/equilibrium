@@ -1,14 +1,14 @@
 import React from 'react';
 import '../styles/navbar.css';
 // import { BsBars } from 'react-icons/bs';
-import logo from '../images/lojj.svg'
+import logo from '../images/logo.png'
 
 function Navbar() {
   return (
     <div className="">
         <nav className='nav'>
             <div className='navlink' to='/'>
-                <img src={logo} alt='logo' />
+                <img src={logo} alt='logo' width={80} />
             </div>
             <div className='bars'>
                 {/* <BsBars /> */}
