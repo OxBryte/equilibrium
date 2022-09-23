@@ -32,16 +32,16 @@
     margin-bottom: 30px;
 }
 
-.team-body {
+.team-body, .utilities-body {
     align-items: center;
     text-align: center;
 }
 
-.team-body-item {
+.team-body-item, .utilities-item {
     margin-block: 10px;
 }
 
-.team-body h2 {
+.team-body h2, .utilities h2 {
     font-size: 18px;
     font-weight: 700;
     margin-top: 8px;
@@ -56,6 +56,10 @@
     width: 150px;
 }
 
-.team {
+.team, .utilities {
     padding: 2rem calc((100vw - 1300px) / 2);
+}
+
+.utilities-item img {
+    width: 500px;
 }

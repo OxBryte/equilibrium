@@ -1,9 +1,4 @@
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-}
+
 section {
   margin: 50px 0;
 }
@@ -68,10 +63,8 @@ section {
   background: blue;
   width: 4px;
   height: 0%;
-
   top: 0%;
   left: 0%;
-
   transition: 1s linear;
 }
 

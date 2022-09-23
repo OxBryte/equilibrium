@@ -4,6 +4,7 @@ import '../styles/body.css';
 import asset1 from '../images/asset1.mp4'
 // import asset2 from '../images/asset2.mp4'
 import profile  from '../images/profile.svg'
+import marketplace  from '../images/marketplace.png'
 import { Button } from 'react-bootstrap'
 import Roadmap from './roadmap';
 
@@ -35,6 +36,31 @@ function Body() {
           </div> */}
 
           <Roadmap />
+
+          <div className='utilities'>
+            <div className="team-header">
+              <h1>Utilities</h1>
+              <p>The First WEB3 Fashion Marketplace On The Solana Blockchain</p>
+            </div>
+            <div className='utilities-body row col-12'>
+              <div className='utilities-item col-6'>
+                <h2>Web3 Marketplace</h2>
+                <img src={marketplace} alt='' />
+              </div>
+              <div className='utilities-item col-6'>
+                <h2>Web3 Marketplace</h2>
+                <img src={marketplace} alt='' />
+              </div>
+              <div className='utilities-item col-6'>
+                <h2>Web3 Marketplace</h2>
+                <img src={marketplace} alt='' />
+              </div>
+              <div className='utilities-item col-6'>
+                <h2>Web3 Marketplace</h2>
+                <img src={marketplace} alt='' />
+              </div>
+            </div>
+          </div>
 
           <div className='team'>
             <div className="team-header">
