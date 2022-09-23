@@ -1,8 +1,9 @@
 import React from 'react';
 import '../styles/body.css';
-import asset from '../images/asset.mp4'
+// import asset from '../images/asset.mp4'
 import asset1 from '../images/asset1.mp4'
-import asset2 from '../images/asset2.mp4'
+// import asset2 from '../images/asset2.mp4'
+import profile  from '../images/profile.svg'
 import { Button } from 'react-bootstrap'
 import Roadmap from './roadmap';
 
@@ -34,6 +35,47 @@ function Body() {
           </div> */}
 
           <Roadmap />
+
+          <div className='team'>
+            <div className="team-header">
+              <h1>Team</h1>
+              <p>We are a fully Doxxed team of Developers, Artists, & Professionals who believe in giving back to the community that drives culture.</p>
+            </div>
+            <div className='team-body row col-12'>
+              <div className='team-body-item col-3'>
+                <img src={profile} alt='' />
+                <h2>Oxbryte</h2>
+              </div>
+              <div className='team-body-item col-3'>
+                <img src={profile} alt='' />
+                <h2>Oxbryte</h2>
+              </div>
+              <div className='team-body-item col-3'>
+                <img src={profile} alt='' />
+                <h2>Oxbryte</h2>
+              </div>
+              <div className='team-body-item col-3'>
+                <img src={profile} alt='' />
+                <h2>Oxbryte</h2>
+              </div>
+              <div className='team-body-item col-3'>
+                <img src={profile} alt='' />
+                <h2>Oxbryte</h2>
+              </div>
+              <div className='team-body-item col-3'>
+                <img src={profile} alt='' />
+                <h2>Oxbryte</h2>
+              </div>
+              <div className='team-body-item col-3'>
+                <img src={profile} alt='' />
+                <h2>Oxbryte</h2>
+              </div>
+              <div className='team-body-item col-3'>
+                <img src={profile} alt='' />
+                <h2>Oxbryte</h2>
+              </div>
+            </div>
+          </div>
     </div>
   );
 }

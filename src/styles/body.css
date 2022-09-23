@@ -22,3 +22,40 @@
     display: flex;
     justify-content: center;
 }
+
+
+.team-header {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.team-body {
+    align-items: center;
+    text-align: center;
+}
+
+.team-body-item {
+    margin-block: 10px;
+}
+
+.team-body h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.team-header p {
+    margin-inline: 400px;
+    text-align: center;
+}
+
+.team-body img {
+    width: 150px;
+}
+
+.team {
+    padding: 2rem calc((100vw - 1300px) / 2);
+}
