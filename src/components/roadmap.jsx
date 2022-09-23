@@ -36,7 +36,7 @@
 
 
 import React from 'react';
-import '../js/roadmapjs.js'
+// import '../js/roadmapjs.js'
 import '../styles/roadmap.css';
 
 function Roadmap() {
