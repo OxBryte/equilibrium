@@ -24,7 +24,7 @@
 }
 
 
-.team-header {
+.team-header, .utilities-header, .patners-header {
     display: flex;
     justify-items: center;
     align-items: center;
@@ -57,9 +57,20 @@
 }
 
 .team, .utilities {
-    padding: 2rem calc((100vw - 1300px) / 2);
+    padding: 3rem calc((100vw - 1300px) / 2);
+    /* margin-bottom: 20px; */
+    background-color: rgb(21, 21, 21, 0.9);
 }
 
 .utilities-item img {
     width: 500px;
+}
+
+.section-bg {
+    background: url(../images/bg2.png);
+    /* background-position: fixed; */
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
 }

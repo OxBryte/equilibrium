@@ -14,7 +14,7 @@ function Navbar() {
                 {/* <BsBars /> */}
             </div>
             <div className='navmenu'>
-                <div className='navlink' to='/' active>
+                <div className='navlink active' to='/' active>
                     <a href=''>Home</a>
                 </div>
                 <div className='navlink' to='/services' activeStyle>

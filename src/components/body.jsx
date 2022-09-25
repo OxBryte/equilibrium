@@ -37,69 +37,77 @@ function Body() {
 
           <Roadmap />
 
-          <div className='utilities'>
-            <div className="team-header">
-              <h1>Utilities</h1>
-              <p>The First WEB3 Fashion Marketplace On The Solana Blockchain</p>
+          <section className='section-bg'>
+            <div className='utilities'>
+              <div className="utilities-header">
+                <h1>Utilities</h1>
+                <p>The First WEB3 Fashion Marketplace On The Solana Blockchain</p>
+              </div>
+              <div className='utilities-body row col-12'>
+                <div className='utilities-item col-6'>
+                  <h2>Web3 Marketplace</h2>
+                  <img src={marketplace} alt='' />
+                </div>
+                <div className='utilities-item col-6'>
+                  <h2>Web3 Marketplace</h2>
+                  <img src={marketplace} alt='' />
+                </div>
+                <div className='utilities-item col-6'>
+                  <h2>Web3 Marketplace</h2>
+                  <img src={marketplace} alt='' />
+                </div>
+                <div className='utilities-item col-6'>
+                  <h2>Web3 Marketplace</h2>
+                  <img src={marketplace} alt='' />
+                </div>
+              </div>
             </div>
-            <div className='utilities-body row col-12'>
-              <div className='utilities-item col-6'>
-                <h2>Web3 Marketplace</h2>
-                <img src={marketplace} alt='' />
-              </div>
-              <div className='utilities-item col-6'>
-                <h2>Web3 Marketplace</h2>
-                <img src={marketplace} alt='' />
-              </div>
-              <div className='utilities-item col-6'>
-                <h2>Web3 Marketplace</h2>
-                <img src={marketplace} alt='' />
-              </div>
-              <div className='utilities-item col-6'>
-                <h2>Web3 Marketplace</h2>
-                <img src={marketplace} alt='' />
-              </div>
-            </div>
-          </div>
 
-          <div className='team'>
-            <div className="team-header">
-              <h1>Team</h1>
-              <p>We are a fully Doxxed team of Developers, Artists, & Professionals who believe in giving back to the community that drives culture.</p>
+            <div className='team'>
+              <div className="team-header">
+                <h1>Team</h1>
+                <p>We are a fully Doxxed team of Developers, Artists, & Professionals who believe in giving back to the community that drives culture.</p>
+              </div>
+              <div className='team-body row col-12'>
+                <div className='team-body-item col-3'>
+                  <img src={profile} alt='' />
+                  <h2>Oxbryte</h2>
+                </div>
+                <div className='team-body-item col-3'>
+                  <img src={profile} alt='' />
+                  <h2>Oxbryte</h2>
+                </div>
+                <div className='team-body-item col-3'>
+                  <img src={profile} alt='' />
+                  <h2>Oxbryte</h2>
+                </div>
+                <div className='team-body-item col-3'>
+                  <img src={profile} alt='' />
+                  <h2>Oxbryte</h2>
+                </div>
+                <div className='team-body-item col-3'>
+                  <img src={profile} alt='' />
+                  <h2>Oxbryte</h2>
+                </div>
+                <div className='team-body-item col-3'>
+                  <img src={profile} alt='' />
+                  <h2>Oxbryte</h2>
+                </div>
+                <div className='team-body-item col-3'>
+                  <img src={profile} alt='' />
+                  <h2>Oxbryte</h2>
+                </div>
+                <div className='team-body-item col-3'>
+                  <img src={profile} alt='' />
+                  <h2>Oxbryte</h2>
+                </div>
+              </div>
             </div>
-            <div className='team-body row col-12'>
-              <div className='team-body-item col-3'>
-                <img src={profile} alt='' />
-                <h2>Oxbryte</h2>
-              </div>
-              <div className='team-body-item col-3'>
-                <img src={profile} alt='' />
-                <h2>Oxbryte</h2>
-              </div>
-              <div className='team-body-item col-3'>
-                <img src={profile} alt='' />
-                <h2>Oxbryte</h2>
-              </div>
-              <div className='team-body-item col-3'>
-                <img src={profile} alt='' />
-                <h2>Oxbryte</h2>
-              </div>
-              <div className='team-body-item col-3'>
-                <img src={profile} alt='' />
-                <h2>Oxbryte</h2>
-              </div>
-              <div className='team-body-item col-3'>
-                <img src={profile} alt='' />
-                <h2>Oxbryte</h2>
-              </div>
-              <div className='team-body-item col-3'>
-                <img src={profile} alt='' />
-                <h2>Oxbryte</h2>
-              </div>
-              <div className='team-body-item col-3'>
-                <img src={profile} alt='' />
-                <h2>Oxbryte</h2>
-              </div>
+          </section>
+          <div className='patners'>
+            <div className="patners-header">
+              <h1>Patners</h1>
+              
             </div>
           </div>
     </div>
