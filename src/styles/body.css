@@ -3,6 +3,7 @@
     justify-content: center;
     padding: 2rem calc((100vw - 1300px) / 2);
     align-items: center;
+    color: #fff;
 }
 
 .body h1{
@@ -59,7 +60,7 @@
 .team, .utilities {
     padding: 3rem calc((100vw - 1300px) / 2);
     /* margin-bottom: 20px; */
-    background-color: rgb(21, 21, 21, 0.9);
+    background-color: rgb(21, 21, 21, 0.8);
 }
 
 .utilities-item img {
@@ -68,9 +69,37 @@
 
 .section-bg {
     background: url(../images/bg2.png);
-    /* background-position: fixed; */
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     color: #fff;
+}
+
+.patners {
+    color: #fff;
+}
+
+.patners-image img {
+    margin: 20px;
+    width: 100px;
+}
+
+.faqs {
+    background: url(../images/background.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.faqs-item {
+    background-color: rgb(21, 21, 21, 0.7);
+    padding: 3rem calc((100vw - 1300px) / 2);
+}
+
+.accordian {
+    background-color:rgb(21, 21, 21) !important;
+    color: #fff !important;
+    fill: #fff !important;
 }

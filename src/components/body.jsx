@@ -2,11 +2,14 @@ import React from 'react';
 import '../styles/body.css';
 // import asset from '../images/asset.mp4'
 import asset1 from '../images/asset1.mp4'
-// import asset2 from '../images/asset2.mp4'
+import asset2 from '../images/asset2.mp4'
 import profile  from '../images/profile.svg'
+import patner1  from '../images/image 3.png'
+import patner2  from '../images/image 4.png'
 import marketplace  from '../images/marketplace.png'
 import { Button } from 'react-bootstrap'
 import Roadmap from './roadmap';
+import Faqs from './accordion';
 
 function Body() {
   return (
@@ -19,7 +22,7 @@ function Body() {
                 <Button variant="primary">Learn more</Button>{' '}
             </div>
             <div className='body-video col-6'>
-                <video src={asset1} autoPlay loop width={500} />
+                <video src={asset2} autoPlay loop width={500} />
             </div>
           </div>
 
@@ -107,9 +110,17 @@ function Body() {
           <div className='patners'>
             <div className="patners-header">
               <h1>Patners</h1>
-              
+              <div className='patners-image'>
+                <img src={patner1} alt='' />
+                <img src={patner2} alt='' />
+              </div>
             </div>
           </div>
+          <section className='faqs'>
+            <div className='faqs-item'>
+              <Faqs />
+            </div>
+          </section>
     </div>
   );
 }
