@@ -38,7 +38,14 @@ function Body() {
             </div>
           </div> */}
 
-          <Roadmap />
+          <section className='roadmap'>
+            <div className="roadmap-header">
+              <h1>Roadmap</h1>
+            </div>
+            <div>
+              <Roadmap />
+            </div>
+          </section>
 
           <section className='section-bg'>
             <div className='utilities'>
@@ -72,35 +79,35 @@ function Body() {
                 <p>We are a fully Doxxed team of Developers, Artists, & Professionals who believe in giving back to the community that drives culture.</p>
               </div>
               <div className='team-body row col-12'>
-                <div className='team-body-item col-lg-3 col-md-6 col-sm-6'>
+                <div className='team-body-item col-lg-3 col-md-3 col-sm-6'>
                   <img src={profile} alt='' />
                   <h2>Oxbryte</h2>
                 </div>
-                <div className='team-body-item col-lg-3 col-md-6 col-sm-6'>
+                <div className='team-body-item col-lg-3 col-md-3 col-sm-6'>
                   <img src={profile} alt='' />
                   <h2>Oxbryte</h2>
                 </div>
-                <div className='team-body-item col-lg-3 col-md-6 col-sm-6'>
+                <div className='team-body-item col-lg-3 col-md-3 col-sm-6'>
                   <img src={profile} alt='' />
                   <h2>Oxbryte</h2>
                 </div>
-                <div className='team-body-item col-lg-3 col-md-6 col-sm-6'>
+                <div className='team-body-item col-lg-3 col-md-3 col-sm-6'>
                   <img src={profile} alt='' />
                   <h2>Oxbryte</h2>
                 </div>
-                <div className='team-body-item col-lg-3 col-md-6 col-sm-6'>
+                <div className='team-body-item col-lg-3 col-md-3 col-sm-6'>
                   <img src={profile} alt='' />
                   <h2>Oxbryte</h2>
                 </div>
-                <div className='team-body-item col-lg-3 col-md-6 col-sm-6'>
+                <div className='team-body-item col-lg-3 col-md-3 col-sm-6'>
                   <img src={profile} alt='' />
                   <h2>Oxbryte</h2>
                 </div>
-                <div className='team-body-item col-lg-3 col-md-6 col-sm-6'>
+                <div className='team-body-item col-lg-3 col-md-3 col-sm-6'>
                   <img src={profile} alt='' />
                   <h2>Oxbryte</h2>
                 </div>
-                <div className='team-body-item col-lg-3 col-md-6 col-sm-6'>
+                <div className='team-body-item col-lg-3 col-md-3 col-sm-6'>
                   <img src={profile} alt='' />
                   <h2>Oxbryte</h2>
                 </div>
@@ -110,14 +117,15 @@ function Body() {
           <div className='patners'>
             <div className="patners-header">
               <h1>Patners</h1>
-              <div className='patners-image'>
-                <img src={patner1} alt='' />
-                <img src={patner2} alt='' />
-              </div>
+            </div>
+            <div className='patners-image'>
+              <img src={patner1} alt='' />
+              <img src={patner2} alt='' />
             </div>
           </div>
           <section className='faqs'>
             <div className='faqs-item'>
+              <h1>Faqs</h1>
               <Faqs />
             </div>
           </section>
