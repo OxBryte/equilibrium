@@ -123,7 +123,7 @@ function Body() {
               <img src={patner2} alt='' />
             </div>
           </div>
-          <section className='faqs'>
+          <section className='faqs heys'>
             <div className='faqs-item'>
               <h1>Faqs</h1>
               <Faqs />
