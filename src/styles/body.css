@@ -20,6 +20,17 @@
     /* justify-content: left; */
 }
 
+.body-text button {
+    padding: 10px 10px !important;
+    border-radius: 20px;
+    color: #000;
+    background-color: #fff;
+}
+
+.about-button:hover {
+    background-color: aquamarine;
+}
+
 .body-video {
     display: flex;
     justify-content: center;
