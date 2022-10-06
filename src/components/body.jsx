@@ -116,9 +116,9 @@ function Body() {
           </section>
           <section className='footer'>
             <div className='footer-icon'>
-              <span><FaTwitter/></span>
-              <span><FaDiscord/></span>
-              <span><FaInstagram/></span>
+              <a href='' ><span><FaTwitter size={30}/></span></a>
+              <a href=''><span><FaDiscord size={30}/></span></a>
+              <a href=''><span><FaInstagram size={30}/></span></a>
             </div>
           </section>  
     </div>
