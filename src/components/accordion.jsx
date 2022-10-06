@@ -10,7 +10,7 @@ export default function Faqs() {
     <div>
         <Accordion className='accordian'>
             <AccordionSummary expandIcon={<ExpandMoreIcon style={{color: "#fff"}} />} aria-controls="panel1a-content" id="panel1a-header">
-            <Typography>Accordion 1</Typography>
+            <Typography>What are the utilities?</Typography>
             </AccordionSummary>
             <AccordionDetails>
             <Typography>
@@ -21,7 +21,7 @@ export default function Faqs() {
         </Accordion>
         <Accordion className='accordian'>
             <AccordionSummary expandIcon={<ExpandMoreIcon style={{color: "#fff"}} />} aria-controls="panel2a-content" id="panel2a-header">
-            <Typography>Accordion 2</Typography>
+            <Typography>What is the mint price?</Typography>
             </AccordionSummary>
             <AccordionDetails>
             <Typography>
@@ -32,7 +32,7 @@ export default function Faqs() {
       </Accordion>
       <Accordion className='accordian'>
             <AccordionSummary expandIcon={<ExpandMoreIcon style={{color: "#fff"}} />} aria-controls="panel3a-content" id="panel3a-header">
-            <Typography>Accordion 3</Typography>
+            <Typography>What is the launch date?</Typography>
             </AccordionSummary>
             <AccordionDetails>
             <Typography>
@@ -43,7 +43,7 @@ export default function Faqs() {
       </Accordion>
       <Accordion className='accordian'>
             <AccordionSummary expandIcon={<ExpandMoreIcon style={{color: "#fff"}} />} aria-controls="panel4a-content" id="panel4a-header">
-            <Typography>Accordion 4</Typography>
+            <Typography>What is the total supply</Typography>
             </AccordionSummary>
             <AccordionDetails>
             <Typography>
@@ -54,7 +54,7 @@ export default function Faqs() {
       </Accordion>
       <Accordion className='accordian'>
             <AccordionSummary expandIcon={<ExpandMoreIcon style={{color: "#fff"}} />} aria-controls="panel5a-content" id="panel5a-header">
-            <Typography>Accordion 5</Typography>
+            <Typography>Is the Whitelist token or wallet based?</Typography>
             </AccordionSummary>
             <AccordionDetails>
             <Typography>

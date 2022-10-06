@@ -10,6 +10,7 @@ import marketplace  from '../images/marketplace.png'
 import { Button } from 'react-bootstrap'
 import Roadmap from './roadmap';
 import Faqs from './accordion';
+import {FaTwitter, FaDiscord, FaInstagram} from 'react-icons/fa'
 
 function Body() {
   return (
@@ -95,22 +96,6 @@ function Body() {
                   <img src={profile} alt='' />
                   <h2>Oxbryte</h2>
                 </div>
-                <div className='team-body-item col-lg-3 col-md-3 col-sm-6'>
-                  <img src={profile} alt='' />
-                  <h2>Oxbryte</h2>
-                </div>
-                <div className='team-body-item col-lg-3 col-md-3 col-sm-6'>
-                  <img src={profile} alt='' />
-                  <h2>Oxbryte</h2>
-                </div>
-                <div className='team-body-item col-lg-3 col-md-3 col-sm-6'>
-                  <img src={profile} alt='' />
-                  <h2>Oxbryte</h2>
-                </div>
-                <div className='team-body-item col-lg-3 col-md-3 col-sm-6'>
-                  <img src={profile} alt='' />
-                  <h2>Oxbryte</h2>
-                </div>
               </div>
             </div>
           </section>
@@ -129,6 +114,13 @@ function Body() {
               <Faqs />
             </div>
           </section>
+          <section className='footer'>
+            <div className='footer-icon'>
+              <span><FaTwitter/></span>
+              <span><FaDiscord/></span>
+              <span><FaInstagram/></span>
+            </div>
+          </section>  
     </div>
   );
 }

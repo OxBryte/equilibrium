@@ -136,6 +136,19 @@
     color: #fff;
 }
 
+.footer {
+    background-color: rgb(21, 21, 21);
+    padding: 1rem calc((100vw - 1300px) / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icon span {
+    margin-inline: 10px;
+    color: #fff !important;
+}
+
 
 
 
