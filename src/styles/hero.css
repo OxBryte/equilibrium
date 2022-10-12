@@ -10,12 +10,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 .hero video {
     width: 100%;
-    background-size: cover;
+    height: 100vh;
+    object-fit: cover;
 }
 
 .hero .hero-content {

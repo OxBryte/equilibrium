@@ -25,24 +25,12 @@ function Body() {
                   <a href=''><span><FaDiscord size={30}/></span></a>
                   <a href=''><span><FaInstagram size={30}/></span></a>
                 </div> */}
-                <button className='about-button'>Learn more</button>{' '}
+                <a href='https://medium.com/@carloshmartinez.biz/the-first-web-3-marketplace-for-fashion-hype-beasts-bbe57bca1ec3' target='_blank'> <button className='about-button'>Learn more</button> </a> {' '}
             </div>
             <div className='body-video col-lg-6 col-md-12 col-sm-12'>
                 <video src={asset2} autoPlay loop width={500} />{' '}
             </div>
           </div>
-
-          {/* <div className='row col-12 body-content'>
-            <div className='body-video col-lg-6 col-md-12 col-sm-12'>
-                <video src={asset2} autoPlay loop width={500} />
-            </div>
-            <div className=' body-text col-lg-6 col-md-12 col-sm-12'>
-                <h1>About Us</h1>
-                <p>The First WEB3 Fashion Marketplace On The Solana Blockchain</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae cupiditate accusantium, eos aliquid id sapiente officia amet nobis voluptatum ullam. Eum tempore illo labore ipsa, qui debitis accusantium. Odio, cupiditate?</p>
-                <Button variant="primary">Learn more</Button>{' '}
-            </div>
-          </div> */}
 
           <section className='roadmap'>
             <div className="roadmap-header">

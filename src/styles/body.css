@@ -27,8 +27,15 @@
     background-color: #fff;
 }
 
+.about-button {
+    padding: 10px 18px !important;
+    width: 200px;
+    border-radius: 10px !important ;
+}
+
 .about-button:hover {
-    background-color: aquamarine;
+    background-color: #FFBD59;
+    color: #fff
 }
 
 .body-video {
@@ -179,25 +186,28 @@
 /* Media Query */
 
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 525px) {
     .utilities-item img {
         width: 320px;
     }
     .body-video video {
-        width: 350px;
+        width: 420px;
     }
 
     .body-video {
         display: flex;
         justify-content: center;
         padding: 0;
-        align-items: space-around;
+        align-items: center;
     }
     .body-text {
         padding: 2rem 2rem;
     }
     .team-header p {
         margin-inline: 20px;
+    }
+    .team-body {
+        justify-content: center;
     }
     .team-body-item {
         width: 200px;
