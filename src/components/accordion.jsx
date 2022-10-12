@@ -14,8 +14,7 @@ export default function Faqs() {
             </AccordionSummary>
             <AccordionDetails>
             <Typography>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                malesuada lacus ex, sit amet blandit leo lobortis eget.
+                We are building a bridge between web2 and web3 as a store where our community members can make purchase using worth os NFT and crypto, also creating a way of rewards fro everyone in the community. Daily raffle, merch and ataking will also be built along side.
             </Typography>
             </AccordionDetails>
         </Accordion>
@@ -25,8 +24,7 @@ export default function Faqs() {
             </AccordionSummary>
             <AccordionDetails>
             <Typography>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                malesuada lacus ex, sit amet blandit leo lobortis eget.
+                TBA
             </Typography>
             </AccordionDetails>
       </Accordion>
@@ -36,8 +34,7 @@ export default function Faqs() {
             </AccordionSummary>
             <AccordionDetails>
             <Typography>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                malesuada lacus ex, sit amet blandit leo lobortis eget.
+                TBA
             </Typography>
             </AccordionDetails>
       </Accordion>
@@ -47,8 +44,7 @@ export default function Faqs() {
             </AccordionSummary>
             <AccordionDetails>
             <Typography>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                malesuada lacus ex, sit amet blandit leo lobortis eget.
+                TBA
             </Typography>
             </AccordionDetails>
       </Accordion>
@@ -58,8 +54,7 @@ export default function Faqs() {
             </AccordionSummary>
             <AccordionDetails>
             <Typography>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                malesuada lacus ex, sit amet blandit leo lobortis eget.
+                TBA
             </Typography>
             </AccordionDetails>
       </Accordion>
