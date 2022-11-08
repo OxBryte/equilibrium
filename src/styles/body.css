@@ -44,6 +44,10 @@
     align-items: center;
 }
 
+.body-video img {
+    border-radius: 20px;
+}
+
 
 .team-header, .utilities-header, .patners-header, .roadmap-header {
     display: flex;
@@ -63,6 +67,10 @@
     margin-block: 10px;
 }
 
+.team-body-item img {
+    border-radius: 20px;
+}
+
 .team-body h2, .utilities h2 {
     font-size: 18px;
     font-weight: 700;
@@ -78,10 +86,15 @@
     width: 150px;
 }
 
-.team, .utilities {
+.utilities {
     padding: 3rem calc((100vw - 1300px) / 2);
     /* margin-bottom: 20px; */
     background-color: rgb(21, 21, 21, 0.8);
+}
+
+.team {
+    background-color: rgb(21, 21, 21);
+    padding: 3rem calc((100vw - 1300px) / 2);
 }
 
 .utilities-header p {
@@ -100,7 +113,7 @@
 }
 
 .section-bg {
-    background: url(../images/bg2.png);
+    background: url(../images/bg1.png);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -123,7 +136,7 @@
 }
 
 .faqs {
-    background: url(../images/background.png);
+    background: url(../images/bg1.png);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -190,8 +203,8 @@
     .utilities-item img {
         width: 320px;
     }
-    .body-video video {
-        width: 420px;
+    .body-video img {
+        width: 400px;
     }
 
     .body-video {

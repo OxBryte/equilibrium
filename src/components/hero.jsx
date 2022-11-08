@@ -1,11 +1,11 @@
 import React from 'react';
 import '../styles/hero.css';
-import asset1 from '../images/video.mp4'
+import bg from '../images/bg1.png'
 
 function Hero() {
   return (
     <div className="hero">
-      <video src={asset1} loop autoPlay muted />
+      <img src={bg} />
         {/* <div className='row col-12 hero-content'>
           
             <div className='hero-img col-6'>

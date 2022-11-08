@@ -18,16 +18,16 @@ function Navbar() {
                     <a href=''>Home</a>
                 </div>
                 <div className='navlink' to='/services' activeStyle>
-                    <a href=''>Roadmap</a>
+                    <a href='#about'>About</a>
                 </div>
                 <div className='navlink' to='/services' activeStyle>
-                    <a href=''>Team</a>
+                    <a href='#roadmap'>Roadmap</a>
                 </div>
                 <div className='navlink' to='/services' activeStyle>
-                    <a href=''>About</a>
+                    <a href='#team'>Team</a>
                 </div>
                 <div className='navlink' to='/contact-us' activeStyle>
-                    <a href=''>Contact</a>
+                    <a href='#contact'>Contact</a>
                 </div>
                 {/* <div className='navlink' to='/sign-up' activeStyle>
                     <a href=''>Sign Up</a>

@@ -1,38 +1,36 @@
 import React from 'react';
 import '../styles/body.css';
-// import asset from '../images/asset.mp4'
-import asset1 from '../images/asset1.mp4'
-import asset2 from '../images/asset2.mp4'
-import profile  from '../images/profile.svg'
-import patner1  from '../images/image 3.png'
-import patner2  from '../images/image 4.png'
+import outlaw5 from '../images/outlaw5.png'
+import outlaw2  from '../images/outlaw2.png'
+import outlaw3  from '../images/outlaw3.png'
+import outlaw4  from '../images/outlaw4.png'
 import marketplace  from '../images/marketplace.png'
 import Roadmap from './roadmap';
 import Faqs from './accordion';
+import outlaw1 from '../images/outlaw1.png'
 import {FaTwitter, FaDiscord, FaInstagram} from 'react-icons/fa'
 
 function Body() {
   return (
     <div className="body">
-          <div className='row col-12 body-content'>
+          <div className='row col-12 body-content' id='about'>
             <div className=' body-text col-lg-6 col-md-12 col-sm-12'>
                 <h1>About Us</h1>
                 <p>The First WEB3 Fashion Marketplace On The Solana Blockchain</p>
                 <p>Equilibrium NFT is a team of Developers, Artists, & Fashion experts who are on a mission to create a Peer-to-Peer marketplace to buy, sell, and trade your fashion items via Crypto Payments.</p>
                 <p>$LIBRIUM is the Token that Equilibrium NFT will be rewarding its holders via Staking their NFT’s and its utility is ever growing. Here are just a few examples of the Utility of this projects token.</p>
-                {/* <div className='footer-icon'>
-                  <a href='' ><span><FaTwitter size={30}/></span></a>
-                  <a href=''><span><FaDiscord size={30}/></span></a>
-                  <a href=''><span><FaInstagram size={30}/></span></a>
-                </div> */}
-                <a href='https://medium.com/@carloshmartinez.biz/the-first-web-3-marketplace-for-fashion-hype-beasts-bbe57bca1ec3' target='_blank'> <button className='about-button'>Learn more</button> </a> {' '}
+                <div className='footer-icon'>
+                  <a href='' ><span><FaTwitter size={20}/></span></a>
+                  <a href=''><span><FaDiscord size={20}/></span></a>
+                  <a href=''><span><FaInstagram size={20}/></span></a>
+                </div>
             </div>
             <div className='body-video col-lg-6 col-md-12 col-sm-12'>
-                <video src={asset2} autoPlay loop width={500} />{' '}
+                <img src={outlaw1} alt="" width={400}/>{' '}
             </div>
           </div>
 
-          <section className='roadmap'>
+          <section className='roadmap' id='roadmap'>
             <div className="roadmap-header">
               <h1>Roadmap</h1>
               <p>We have a long journey ahead, Kick back and join along.</p>
@@ -68,32 +66,32 @@ function Body() {
               </div>
             </div>
 
-            <div className='team'>
+            <div className='team' id='team'>
               <div className="team-header">
                 <h1>Team</h1>
                 <p>We are a fully Doxxed team of Developers, Artists, & Professionals who believe in giving back to the community that drives culture.</p>
               </div>
               <div className='team-body row col-12'>
                 <div className='team-body-item col-lg-3 col-md-3 col-sm-6'>
-                  <img src={profile} alt='' />
+                  <img src={outlaw2} alt='' />
                   <h2>Oxbryte</h2>
                 </div>
                 <div className='team-body-item col-lg-3 col-md-3 col-sm-6'>
-                  <img src={profile} alt='' />
+                  <img src={outlaw3} alt='' />
                   <h2>Oxbryte</h2>
                 </div>
                 <div className='team-body-item col-lg-3 col-md-3 col-sm-6'>
-                  <img src={profile} alt='' />
+                  <img src={outlaw4} alt='' />
                   <h2>Oxbryte</h2>
                 </div>
                 <div className='team-body-item col-lg-3 col-md-3 col-sm-6'>
-                  <img src={profile} alt='' />
+                  <img src={outlaw5} alt='' />
                   <h2>Oxbryte</h2>
                 </div>
               </div>
             </div>
           </section>
-          <div className='patners'>
+          {/* <div className='patners'>
             <div className="patners-header">
               <h1>Patners</h1>
             </div>
@@ -101,14 +99,14 @@ function Body() {
               <img src={patner1} alt='' />
               <img src={patner2} alt='' />
             </div>
-          </div>
+          </div> */}
           <section className='faqs'>
             <div className='faqs-item'>
               <h1>Faqs</h1>
               <Faqs />
             </div>
           </section>
-          <section className='footer'>
+          <section className='footer' id='contact'>
             <div className='footer-icon'>
               <a href='' ><span><FaTwitter size={30}/></span></a>
               <a href=''><span><FaDiscord size={30}/></span></a>
