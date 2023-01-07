@@ -1,8 +1,8 @@
 .nav {
-    background: rgba(0, 0, 0, 0.8);
-    height: 60px;
+    background: linear-gradient(117.11deg, #ABEBFF -0.41%, #38A1C1 100%);
+    height: 80px;
     width: 100%;
-    position: fixed;
+    /* position: fixed; */
     display: flex;
     align-items: center;
     justify-content: space-between;

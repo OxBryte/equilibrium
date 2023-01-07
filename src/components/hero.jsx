@@ -1,21 +1,22 @@
-import React from 'react';
-import '../styles/hero.css';
-import bg from '../images/bg1.png'
+import React from "react";
+import "../styles/hero.css";
+import bg from "../images/dddd.png";
+import { FaArrowRight } from "react-icons/fa";
 
 function Hero() {
   return (
-    <div className="hero">
+    <div className="hero col-12">
       <img src={bg} />
-        {/* <div className='row col-12 hero-content'>
-          
-            <div className='hero-img col-6'>
-                <img src={asset1} alt="" srcset="" />
-            </div>
-            <div className=' hero-text col-6'>
-                <h1>EQUILIBRIUM</h1>
-                <p>The First WEB3 Fashion Marketplace On The Solana Blockchain</p>
-            </div>
-        </div> */}
+      <div className="row hero-content">
+        <h1>Creating Lead Optimised Websites for Small Business Owners.</h1>
+        <div>
+          <p>
+            Want to get more leads? Want to generate more demand? Want to
+            convert more website visitors? Zeta has got you covered.
+          </p>
+          <span className="sub-text"><b>How we'll help you</b> <FaArrowRight/> </span>
+        </div>
+      </div>
     </div>
   );
 }

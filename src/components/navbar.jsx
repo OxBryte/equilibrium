@@ -18,24 +18,12 @@ function Navbar() {
                     <a href=''>Home</a>
                 </div>
                 <div className='navlink' to='/services' activeStyle>
-                    <a href='#about'>About</a>
+                    <a href='#about'>Contact</a>
                 </div>
                 <div className='navlink' to='/services' activeStyle>
-                    <a href='#roadmap'>Roadmap</a>
+                    <a href='#roadmap'>About</a>
                 </div>
-                <div className='navlink' to='/services' activeStyle>
-                    <a href='#team'>Team</a>
-                </div>
-                <div className='navlink' to='/contact-us' activeStyle>
-                    <a href='#contact'>Contact</a>
-                </div>
-                {/* <div className='navlink' to='/sign-up' activeStyle>
-                    <a href=''>Sign Up</a>
-                </div> */}
-                {/* Second Nav */}
-                {/* <div className='navbtn'>
-                    <button to='/sign-in'>Connect wallet</button>
-                </div> */}
+                <button className='btn btn-sm btn-info'>Book a free review</button>
             </div>
             {/* <div className='navbtn'>
                 <button to='/signin'>Connect wallet</button>
